@@ -71,10 +71,13 @@ This project builds a predictive model to **detect customer churn** in the telec
 
 ---
 
-## 🔗 Next Steps
-- **Hyperparameter tuning** for further optimization  
-- **Deploy model using Flask or FastAPI** for real-world application  
-- **Enhance feature engineering** for better predictive power  
+## 🔗 Future Enhancements
+
+SHAP-based explainability
+
+Automated retraining schedule
+
+Email/SMS alert integration
 
 ![Project Banner](Customer_chur_banner.png)
 ---
