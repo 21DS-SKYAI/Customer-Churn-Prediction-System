@@ -1,8 +1,17 @@
-<h1 align="center">📉 Telecom Customer Churn Prediction</h1>
-<p align="center">
-  <strong>Leveraging machine learning to identify at-risk customers and enhance retention strategies</strong>
-</p>
+## 🚀 Customer Churn Prediction App
 
+This project predicts whether a telecom customer is likely to churn using Machine Learning.
+
+### 🔧 Tech Stack
+- Python
+- Scikit-learn
+- Streamlit
+- Pandas, NumPy
+
+### ▶ Run Locally
+```bash
+pip install -r requirements.txt
+streamlit run app.py
 
 
 ---
@@ -71,13 +80,7 @@ This project builds a predictive model to **detect customer churn** in the telec
 
 ---
 
-## 🔗 Future Enhancements
 
-SHAP-based explainability
-
-Automated retraining schedule
-
-Email/SMS alert integration
 
 ![Project Banner](Customer_chur_banner.png)
 ---
