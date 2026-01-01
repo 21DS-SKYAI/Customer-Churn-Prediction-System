@@ -1,12 +1,12 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import pickle
+import joblib
 
 # ---------------------------
 # Load trained model
 # ---------------------------
-model = pickle.load(open("model.sav", "rb"))
+model = joblib.load("model.joblib")
 
 st.set_page_config(
     page_title="Customer Churn Prediction",
